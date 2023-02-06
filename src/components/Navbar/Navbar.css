@@ -1,0 +1,21 @@
+.topnav {
+  background-color: #202022;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em;
+}
+
+.topnav ul {
+  display: flex;
+  gap: 1em;
+}
+
+.topnav ul a {
+  color: #00bbc9;
+  text-decoration: none;
+}
+
+.topnav ul a.active {
+  color: #cacaca;
+}

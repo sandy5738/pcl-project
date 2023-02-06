@@ -1,0 +1,41 @@
+.home-container {
+  background-color: #cacaca;
+  padding: 1em;
+}
+
+.home-hero {
+  height: 20vh;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-hero .right {
+  display: flex;
+  gap: 1em;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  height: 20vh;
+}
+
+.feature {
+  background: #878787;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+button {
+  padding: 0.75em;
+  background-color: #00bbc9;
+  border-radius: 10px;
+  border-style: none;
+}
+
+button:hover {
+  color: #cacaca;
+}
